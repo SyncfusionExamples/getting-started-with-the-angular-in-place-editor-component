@@ -1,0 +1,26 @@
+<div>
+  <h4>Modify the details</h4>
+  <table>
+    <tr>
+      <td>Name</td> 
+      <td>
+        <ejs-inplaceeditor type="Text" [model]="textboxObject" [(value)]="textboxValue">
+        </ejs-inplaceeditor>
+      </td>
+    </tr>
+    <tr>
+      <td>Date of Birth</td>
+      <td>
+        <ejs-inplaceeditor type="Date" [model]="datepickerObject" [(value)]="dateValue">
+        </ejs-inplaceeditor>
+      </td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>
+        <ejs-inplaceeditor type="DropDownList" mode="Inline" data-underline="false"
+        [model]="listObject" [(value)]="listValue"></ejs-inplaceeditor>
+      </td>
+    </tr>
+  </table>
+</div>
