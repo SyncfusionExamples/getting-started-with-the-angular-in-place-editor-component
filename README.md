@@ -1,37 +1,73 @@
 # Getting Started with the Angular In-Place Editor Component
 
-A quick start Angular project that shows how to add a In Place Editor component to an Angular app. This project also includes a code snippet to integrate other components like the DatePicker, TextBox, and Dropdown List. Finally, I will show you how to change the mode. 
+## Repository Description
 
-Examples: https://ej2.syncfusion.com/angular/demos/#/material/inplace-editor/default 
+A quick start Angular project demonstrating how to add an In-Place Editor component to Angular applications, including integration examples for DatePicker, TextBox, and Dropdown List components with comprehensive mode configuration options.
 
-Documentation:  https://ej2.syncfusion.com/angular/documentation/inplace-editor/getting-started 
+## Project Overview
 
-# Project pre-requisites
+This project provides a practical guide and working examples for implementing Syncfusion's In-Place Editor component in Angular applications. It showcases how to seamlessly integrate the In-Place Editor alongside other UI components while maintaining clean, maintainable code structure.
 
-Make sure that you have the compatible versions of TypeScript and Angular in your machine before starting to work on this project.
+## Features
 
-Angular 4+
+- ✅ In-Place Editor component implementation
+- ✅ Integration with DatePicker component
+- ✅ Integration with TextBox component
+- ✅ Integration with Dropdown List component
+- ✅ Mode configuration and switching
+- ✅ Development server setup with hot reload
+- ✅ Comprehensive documentation links
+- ✅ Quick clone and setup process
 
-TypeScript 2.6+
+## Prerequisites
 
-# How to run this application?
+Before starting with this project, ensure you have compatible versions of the following tools installed:
 
-To run this application, you need to first clone the getting-started-with-the-angular-in-place-editor-component repository and then navigate to its appropriate path where it has been in your system.
+- **Angular**: 4.0 or higher
+- **TypeScript**: 2.6 or higher
+- **Node.js**: Latest stable version
+- **npm**: Latest version
 
-To do so, open the command prompt and run the below commands one after the other.
+## Installation
 
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**
+
+```bash
 git clone angular-example
-
 cd angular-example
+```
 
-# Installing
+2. **Install Dependencies**
 
-Once done with downloading, next you need to install the necessary packages required to run this application locally. The npm install command will install all the needed angular packages into your current project and to do so, run the below command.
+Once you've cloned the repository, install all required npm packages:
 
+```bash
 npm install
+```
 
-# Running on development server
+This command installs all necessary Angular packages and dependencies required to run the application locally.
 
-Run ng serve command for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+## Running on Development Server
 
+To start the development server:
 
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200/` in your browser. The application will automatically reload whenever you modify any source files.
+
+## Documentation & Resources
+
+- **Live Examples**: https://ej2.syncfusion.com/angular/demos/#/material/inplace-editor/default
+- **Official Documentation**: https://ej2.syncfusion.com/angular/documentation/inplace-editor/getting-started
+
+## Usage
+
+The In-Place Editor component allows users to edit content inline with a simple click. Refer to the documentation and examples for detailed usage patterns and configuration options.
+
+## Support
+
+For detailed guidance and implementation examples, refer to the official Syncfusion documentation links provided in the Resources section above.
